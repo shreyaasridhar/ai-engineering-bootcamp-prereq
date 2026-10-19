@@ -27,3 +27,8 @@ build-backend = "uv_build"
 
 [tool.uv]
 package = false
+
+[tool.uv.workspace]
+members = [
+    "apps/api",
+]
